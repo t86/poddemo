@@ -1,0 +1,12 @@
+platform :ios, ‘8.0’
+
+target 'KYLibrary' do
+pod 'AFNetworking', '~> 2.5.0'
+pod 'DejalActivityView', '~> 1.2'
+pod 'Toast', '~> 3.0'
+pod 'iRate', '~> 1.11.4'
+pod 'SSKeychain', '~> 1.2.3'
+pod 'CMPopTipView', '~> 2.3.0'
+pod 'KZBootstrap'
+pod 'MJExtension'
+end

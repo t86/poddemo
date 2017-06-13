@@ -1,0 +1,27 @@
+//
+//  Prefix header
+//
+//  The contents of this file are implicitly included at the beginning of every source file.
+//
+
+#import <Availability.h>
+
+#ifndef __IPHONE_7_0
+#warning "This project uses features only available in iOS SDK 7.0 and later."
+#endif
+
+#ifdef __OBJC__
+    #import <UIKit/UIKit.h>
+    #import <Foundation/Foundation.h>
+    #import "KYMacro.h"
+    #import "KYRegularExpression.h"
+    #import "KYUtility.h"
+    #import "KYGPSService.h"
+    #import "UIColor+Additional.h"
+    #import "KYAlertTool.h"
+    #import "UIView+Reframer.h"
+    #import "UIView+Toast.h"
+    #import "BaiduMobStat.h"
+    #import "KYLibGlobalData.h"
+    #import "KYLibConstant.h"
+#endif

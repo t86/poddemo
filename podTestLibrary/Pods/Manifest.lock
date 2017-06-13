@@ -1,0 +1,58 @@
+PODS:
+  - AFNetworking (2.5.4):
+    - AFNetworking/NSURLConnection (= 2.5.4)
+    - AFNetworking/NSURLSession (= 2.5.4)
+    - AFNetworking/Reachability (= 2.5.4)
+    - AFNetworking/Security (= 2.5.4)
+    - AFNetworking/Serialization (= 2.5.4)
+    - AFNetworking/UIKit (= 2.5.4)
+  - AFNetworking/NSURLConnection (2.5.4):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/NSURLSession (2.5.4):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (2.5.4)
+  - AFNetworking/Security (2.5.4)
+  - AFNetworking/Serialization (2.5.4)
+  - AFNetworking/UIKit (2.5.4):
+    - AFNetworking/NSURLConnection
+    - AFNetworking/NSURLSession
+  - CMPopTipView (2.3.0)
+  - DejalActivityView (1.2)
+  - iRate (1.11.7)
+  - KZAsserts (1.0)
+  - KZBootstrap (0.6.0):
+    - KZBootstrap/Core (= 0.6.0)
+  - KZBootstrap/Core (0.6.0):
+    - KZAsserts (~> 1.0)
+  - MJExtension (3.0.13)
+  - SSKeychain (1.2.3)
+  - Toast (3.1.0)
+
+DEPENDENCIES:
+  - AFNetworking (~> 2.5.0)
+  - CMPopTipView (~> 2.3.0)
+  - DejalActivityView (~> 1.2)
+  - iRate (~> 1.11.4)
+  - KZBootstrap
+  - MJExtension
+  - SSKeychain (~> 1.2.3)
+  - Toast (~> 3.0)
+
+SPEC CHECKSUMS:
+  AFNetworking: 05edc0ac4c4c8cf57bcf4b84be5b0744b6d8e71e
+  CMPopTipView: 774e0230b5c73abb3c39051da6d8a383373c4f7f
+  DejalActivityView: 94d85757728a02cbb32445fcf6dfba17dc1e7393
+  iRate: adae3f183d83c925ac42d7a2e86e89e838963f57
+  KZAsserts: 6e613b569a33582dc94cf7a1f34a2c6d870982a7
+  KZBootstrap: 205c1a07c0365779388ba911172996afef438dd8
+  MJExtension: 5932755f451458eefa24239358817f8d291240c7
+  SSKeychain: 3f42991739c6c60a9cf1bbd4dff6c0d3694bcf3d
+  Toast: 14a93686d6c8bfe2727afd342414e35660a8a1f3
+
+PODFILE CHECKSUM: 6b3e7abbd3c79233fc137c98d6311d35f7aee36c
+
+COCOAPODS: 1.2.0

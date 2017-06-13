@@ -21,16 +21,17 @@ Pod::Spec.new do |s|
 TODO: Add long description of the pod here.
                        DESC
 
-  s.homepage         = 'https://github.com/tanglin/podTestLibrary'
+  s.homepage         = 'http://git.zealfi.com/products/kyloanLibraryIOS'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'tanglin' => 'tanglin@zealfi.com' }
-  s.source           = { :git => 'https://github.com/tanglin/podTestLibrary.git', :tag => s.version.to_s }
+  s.source           = { :git => 'git@git.zealfi.com:products/kyloanLibraryIOS.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.ios.deployment_target = '8.0'
+  s.ios.deployment_target = '7.0'
 
-  s.source_files = 'podTestLibrary/Classes/**/*'
+
+  s.source_files = 'podTestLibrary/KYLibrary/{Lib,Common,View,*.h}/**/*.{h,m}'
   
   # s.resource_bundles = {
   #   'podTestLibrary' => ['podTestLibrary/Assets/*.png']
@@ -39,4 +40,7 @@ TODO: Add long description of the pod here.
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
   # s.dependency 'AFNetworking', '~> 2.3'
+s.dependency "SSKeychain", "~> 1.2.3"
+s.dependency "DejalActivityView", "~> 1.2"
+s.dependency "Toast", "~> 3.0"
 end
